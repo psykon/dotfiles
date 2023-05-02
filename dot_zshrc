@@ -77,6 +77,15 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
+export XDG_RUNTIME_DIR="/run/user/$UID"
+export XDG_DATA_DIRS="/usr/local/share:/usr/share:/var/lib/flatpak/exports/share:/home/psykon/.local/share/flatpak/exports/share"
+export XDG_CONFIG_DIRS="/etc/xdg"
+
+export GDK_DPI_SCALE=1.33
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
