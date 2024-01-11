@@ -93,3 +93,4 @@ source $ZSH/oh-my-zsh.sh
 
 alias v="nvim"
 alias lg="lazygit"
+alias hx="helix"
